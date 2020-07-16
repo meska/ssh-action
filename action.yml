@@ -30,6 +30,8 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - '--network host'
 
 branding:
   color: "green"
